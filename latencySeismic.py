@@ -4,8 +4,6 @@ import mysql.connector
 from datetime import datetime
 
 # Custom format (dd/mm/YY H:M:S)
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print(f"Formatted date and time: {dt_string}")
 
 
 # Masukan alamat website
