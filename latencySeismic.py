@@ -89,7 +89,7 @@ for latency in latencies:
             )
 
             created_at = datetime.now()
-            print("Connection to the database successful!")
+            # print("Connection to the database successful!")
             cursor = conn.cursor()
             data = (i, latency[0], latency[1], latency[2], created_at)
             #print(data)
